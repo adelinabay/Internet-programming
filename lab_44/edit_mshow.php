@@ -26,7 +26,7 @@ $id_hall_e = $st['id_hall'];
 $lot_e = $st['lot'];$lotz_e = $st['lotz'];
 }
 print "<form action='save_edit_mshow.php' metod='get'>";
-print "<br>Дата и время начала показа фильма: <input name='datet_e' type='datetime'
+print "<br>Дата и время начала показа фильма: <input name='datet_e' type='datetime-local'
 value='".$datet_e."'>";
 print "<br>id фильма: <input name='id_movie_e' size='20' type='text'
 value='".$id_movie_e."'>";
