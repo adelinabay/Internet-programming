@@ -5,7 +5,7 @@
 <body>
 <H2>Регистрация:</H2>
 <form action="save_new_mshow.php" metod="get">
-Дата и время начала показа фильма: <input name="datet_n" type="datetime">
+Дата и время начала показа фильма: <input name="datet_n" type="datetime-local">
 <br>id фильма: <input name="id_movie_n" size="100" type="text">
 <br>id кинозала: <input name="id_hall_n" size="100" type="text">
 <br>Количество мест: <input name="lot_n" size="100" type="text">
